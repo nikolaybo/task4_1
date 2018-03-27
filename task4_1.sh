@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# change echo to EOF/EOS
+# add some comments, be serious, man!!
 echo "
 ---Hardware---
 CPU: $(sudo lshw -C cpu |grep product |awk '{$1=""; print $0}')
